@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="main-section padding" id="Portfolio">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="portfolioFilter">
+      <ul class="portfolio-nav">
+        <li><a href="#" data-filter="*" class="current">Todos</a></li>
+        <li><a href="#" data-filter=".branding">Branding</a></li>
+        <li><a href="#" data-filter=".webdesign">Web Design</a></li>
+        <li><a href="#" data-filter=".printdesign">Print Design</a></li>
+        <li><a href="#" data-filter=".photography">Photography</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="portfolioContainer">
+    <div class="Portfolio-box printdesign">
+      <a href="#"><img src="./assets/images/(5).jpeg" alt="Foto Album"></a>
+      <h3>Foto Album</h3>
+      <p>Print Design</p>
+    </div>
+    <div class="Portfolio-box webdesign">
+      <a href="#"><img src="./assets/images/(2).jpeg" alt="Luca Theme"></a>
+      <h3>Luca Theme</h3>
+      <p>Web Design</p>
+    </div>
+    <div class="Portfolio-box branding">
+      <a href="#"><img src="./assets/images/(3).jpeg" alt="Uni Sans"></a>
+      <h3>Uni Sans</h3>
+      <p>Branding</p>
+    </div>
+    <div class="Portfolio-box photography">
+      <a href="#"><img src="./assets/images/(4).jpeg" alt="Vinyl Record"></a>
+      <h3>Vinyl Record</h3>
+      <p>Photography</p>
+    </div>
+    <div class="Portfolio-box branding">
+      <a href="#"><img src="./assets/images/(1).jpeg" alt="Hipster"></a>
+      <h3>Hipster</h3>
+      <p>Branding</p>
+    </div>
+    <div class="Portfolio-box photography">
+      <a href="#"><img src="./assets/images/(0).jpeg" alt="Windmills"></a>
+      <h3>Windmills</h3>
+      <p>Photography</p>
+    </div>
+  </div>
+</section>
+
+<script>
+    // script.js
+$(document).ready(function(){
+  var $container = $('.portfolioContainer');
+  $container.isotope({
+    itemSelector: '.Portfolio-box'
+  });
+
+  $('.portfolio-nav a').click(function(){
+    $('.portfolio-nav .current').removeClass('current');
+    $(this).addClass('current');
+
+    var selector = $(this).attr('data-filter');
+    $container.isotope({
+      filter: selector
+    });
+    return false;
+  });
+});
+
+</script>
+</body>
+</html>
