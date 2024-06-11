@@ -6952,7 +6952,9 @@ h4 {
 
 .nk-navbar,
 .nk-navbar.nk-navbar-solid {
-    background-color: #fff
+    background-color: #0251ae;
+    border-bottom: 2px solid #0000000d;
+   
 }
 
 .nk-navbar.nk-navbar-transparent-always {
@@ -7007,12 +7009,15 @@ h4 {
 .nk-navbar a {
     color: inherit;
     transition: color .3s
+    
 }
 
 .nk-navbar ul {
     list-style-type: none;
     padding: 0;
-    margin: 0
+    margin: 0;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif; font-optical-sizing: auto; color:#fafafa; text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
 .nk-navbar ul>li>a {
@@ -7021,7 +7026,7 @@ h4 {
 
 .nk-navbar ul>li>a:focus,
 .nk-navbar ul>li>a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .nk-navbar .nk-navbar-bg {
@@ -7166,12 +7171,12 @@ h4 {
 }
 
 .nk-navbar.nk-navbar-white-text-on-top.nk-navbar-solid .nk-nav>li>a {
-    color: inherit
+    color: #fafafa
 }
 
 .nk-navbar.nk-navbar-white-text-on-top.nk-navbar-solid .nk-nav>li.active>a,
 .nk-navbar.nk-navbar-white-text-on-top.nk-navbar-solid .nk-nav>li>a:hover {
-    color: #0e0e0e
+    font-family: 'Montserrat', sans-serif; font-optical-sizing: auto; color:#D57C1B; text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25); font-weight: 600;
 }
 
 .nk-navbar.nk-navbar-white-text-on-top .nk-nav-logo .nk-nav-logo-onscroll {
