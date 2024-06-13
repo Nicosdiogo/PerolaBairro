@@ -5482,7 +5482,7 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #006494;
+    background-color: #0251AE;
     z-index: -1
 }
 
@@ -5764,7 +5764,7 @@ h4 {
 }
 
 .text-dark-1 {
-    color: #006494 !important
+    color: #0251AE !important
 }
 
 .text-dark-2 {
@@ -5808,7 +5808,7 @@ h4 {
 }
 
 .bg-dark-1 {
-    background-color: #006494 !important
+    background-color: #0251AE !important
 }
 
 .bg-dark-2 {
@@ -6894,7 +6894,7 @@ h4 {
     border: 1px solid #a5a5a5;
     border-radius: 3px;
     background-color: #fff;
-    color: #006494
+    color: #0251AE
 }
 
 .nk-header {
@@ -6952,7 +6952,7 @@ h4 {
 
 .nk-navbar,
 .nk-navbar.nk-navbar-solid {
-    background-color: #0251ae;
+    background-color: #0251aef0;
     border-bottom: 2px solid #0000000d;
    
 }
@@ -7100,7 +7100,7 @@ h4 {
     position: absolute;
     display: none;
     font-size: 1rem;
-    background-color: #006494;
+    background-color: #0251AE;
     margin-top: 12px;
     margin-left: -15px;
     padding: 15px 0;
@@ -7239,7 +7239,7 @@ h4 {
 .nk-navbar-full {
     padding: 0;
     overflow: hidden;
-    background: #006494;
+    background: #0251AE;
     z-index: 1002
 }
 
@@ -7632,7 +7632,7 @@ h4 {
     user-select: none;
     text-transform: uppercase;
     transition: all .5s;
-    background-color: #006494
+    background-color: #0251AE
 }
 
 .nk-btn,
@@ -7723,7 +7723,7 @@ h4 {
 }
 
 .nk-progress .nk-progress-line>div {
-    background-color: #006494;
+    background-color: #0251AE;
     height: 100%;
     text-align: right
 }
@@ -8570,7 +8570,7 @@ div.nk-error {
     display: inline-block;
     width: 20px;
     height: 18px;
-    color: #006494
+    color: #0251AE
 }
 
 .nk-icon-burger>span {
@@ -8819,7 +8819,7 @@ a:hover>.nk-icon-search:after {
 }
 
 .nk-video-icon-light {
-    color: #006494
+    color: #0251AE
 }
 
 .nk-video-icon-light:before {
@@ -8832,7 +8832,7 @@ a:hover>.nk-icon-search:after {
     width: 80px;
     height: 80px;
     display: inline-block;
-    color: #006494
+    color: #0251AE
 }
 
 .nk-video-icon-2-light:before,
@@ -8845,7 +8845,7 @@ a:hover>.nk-icon-search:after {
     right: 0;
     bottom: 0;
     border-radius: 40px;
-    border: 5px solid #006494;
+    border: 5px solid #0251AE;
     opacity: 1;
     transition: opacity .3s, transform .3s;
     transform-style: preserve-3d
@@ -9364,7 +9364,7 @@ a:hover>.nk-icon-search:after {
 
 .nk-blog-isotope .nk-blog-post .nk-post-category a {
     display: inline-block;
-    background-color: #006494;
+    background-color: #0251AE;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
